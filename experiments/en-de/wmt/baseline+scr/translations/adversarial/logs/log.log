@@ -1,0 +1,215 @@
+INFO: Reading-in JSON samples table ...
+INFO: Reading-in attractor table ...
+INFO: Reading-in sense clusters ...
+INFO: Constructing the cluster lookup table ...
+INFO: Looking-up the term 'anchor'
+INFO: Looking-up the term 'arm'
+INFO: Looking-up the term 'balance'
+INFO: Looking-up the term 'band'
+INFO: Looking-up the term 'bank'
+INFO: Looking-up the term 'bar'
+INFO: Looking-up the term 'bark'
+INFO: Looking-up the term 'barrel'
+INFO: Looking-up the term 'bass'
+INFO: Looking-up the term 'bat'
+INFO: Looking-up the term 'battery'
+INFO: Looking-up the term 'beam'
+INFO: Looking-up the term 'board'
+INFO: Looking-up the term 'bolt'
+INFO: Looking-up the term 'boot'
+INFO: Looking-up the term 'bow'
+INFO: Looking-up the term 'brace'
+INFO: Looking-up the term 'break'
+INFO: Looking-up the term 'bug'
+INFO: Looking-up the term 'butt'
+INFO: Looking-up the term 'cabinet'
+INFO: Looking-up the term 'capital'
+INFO: Looking-up the term 'case'
+INFO: Looking-up the term 'cast'
+INFO: Looking-up the term 'chair'
+INFO: Looking-up the term 'change'
+INFO: Looking-up the term 'charge'
+INFO: Looking-up the term 'chest'
+INFO: Looking-up the term 'chip'
+INFO: Looking-up the term 'clip'
+INFO: Looking-up the term 'club'
+INFO: Looking-up the term 'cock'
+INFO: Looking-up the term 'counter'
+INFO: Looking-up the term 'crane'
+INFO: Looking-up the term 'cycle'
+INFO: Looking-up the term 'date'
+INFO: Looking-up the term 'deck'
+INFO: Looking-up the term 'drill'
+INFO: Looking-up the term 'drop'
+INFO: Looking-up the term 'fall'
+INFO: Looking-up the term 'fan'
+INFO: Looking-up the term 'file'
+INFO: Looking-up the term 'film'
+INFO: Looking-up the term 'flat'
+INFO: Looking-up the term 'fly'
+INFO: Looking-up the term 'gum'
+INFO: Looking-up the term 'hoe'
+INFO: Looking-up the term 'hood'
+INFO: Looking-up the term 'jam'
+INFO: Looking-up the term 'jumper'
+INFO: Looking-up the term 'lap'
+INFO: Looking-up the term 'lead'
+INFO: Looking-up the term 'letter'
+INFO: Looking-up the term 'lock'
+INFO: Looking-up the term 'mail'
+INFO: Looking-up the term 'match'
+INFO: Looking-up the term 'mine'
+INFO: Looking-up the term 'mint'
+INFO: Looking-up the term 'mold'
+INFO: Looking-up the term 'mole'
+INFO: Looking-up the term 'mortar'
+INFO: Looking-up the term 'move'
+INFO: Looking-up the term 'nail'
+INFO: Looking-up the term 'note'
+INFO: Looking-up the term 'offense'
+INFO: Looking-up the term 'organ'
+INFO: Looking-up the term 'pack'
+INFO: Looking-up the term 'palm'
+INFO: Looking-up the term 'pick'
+INFO: Looking-up the term 'pitch'
+INFO: Looking-up the term 'pitcher'
+INFO: Looking-up the term 'plaster'
+INFO: Looking-up the term 'plate'
+INFO: Looking-up the term 'plot'
+INFO: Looking-up the term 'pot'
+INFO: Looking-up the term 'present'
+INFO: Looking-up the term 'punch'
+INFO: Looking-up the term 'quarter'
+INFO: Looking-up the term 'race'
+INFO: Looking-up the term 'racket'
+INFO: Looking-up the term 'record'
+INFO: Looking-up the term 'ruler'
+INFO: Looking-up the term 'scale'
+INFO: Looking-up the term 'seal'
+INFO: Looking-up the term 'sewer'
+INFO: Looking-up the term 'snare'
+INFO: Looking-up the term 'spirit'
+INFO: Looking-up the term 'spot'
+INFO: Looking-up the term 'spring'
+INFO: Looking-up the term 'staff'
+INFO: Looking-up the term 'stock'
+INFO: Looking-up the term 'subject'
+INFO: Looking-up the term 'tank'
+INFO: Looking-up the term 'tear'
+INFO: Looking-up the term 'term'
+INFO: Looking-up the term 'tie'
+INFO: Looking-up the term 'toast'
+INFO: Looking-up the term 'trunk'
+INFO: Looking-up the term 'tube'
+INFO: Looking-up the term 'vacuum'
+INFO: Looking-up the term 'watch'
+INFO: ----------
+INFO: Hashing true translations ...
+INFO: Hashing adversarial translations ...
+INFO: ----------
+INFO: Looking-up the term 'arm'
+INFO: Looking-up the term 'balance'
+INFO: Looking-up the term 'band'
+INFO: Looking-up the term 'bank'
+INFO: Looking-up the term 'bar'
+INFO: Looking-up the term 'barrel'
+INFO: Looking-up the term 'beam'
+INFO: Looking-up the term 'board'
+INFO: Looking-up the term 'boot'
+INFO: Looking-up the term 'capital'
+INFO: Looking-up the term 'case'
+INFO: Looked up 10 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: --------------------
+INFO: 2239 (91.5372%) adversarial sentences have been translated CORRECTLY
+INFO: 207 (8.4628%) adversarial sentences have been translated INCORRECTLY
+INFO: --------------------
+INFO: 117 (56.5217%) / (4.7833%) INCORRECT adversarial translations were flipped to the ATTRACTOR'S target sense
+INFO: ===> Of those, 43 (1.9274%) have correct seed translations (i.e. successful attacks, as reported in Fugure 3 of the paper) <==
+INFO: --------------------
+INFO: 9 (4.3478%) / (0.3679%) INCORRECT adversarial translations were flipped to some OTHER KNOWN target sense
+INFO: Of those, 0 (0.0000%) have correct seed translations
+INFO: Looking-up the term 'chair'
+INFO: Looking-up the term 'club'
+INFO: Looking-up the term 'cock'
+INFO: Looking-up the term 'counter'
+INFO: Looking-up the term 'cycle'
+INFO: Looking-up the term 'date'
+INFO: Looking-up the term 'drop'
+INFO: Looking-up the term 'fall'
+INFO: Looking-up the term 'fan'
+INFO: Looking-up the term 'file'
+INFO: Looked up 20 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: --------------------
+INFO: 4290 (91.0635%) adversarial sentences have been translated CORRECTLY
+INFO: 421 (8.9365%) adversarial sentences have been translated INCORRECTLY
+INFO: --------------------
+INFO: 283 (67.2209%) / (6.0072%) INCORRECT adversarial translations were flipped to the ATTRACTOR'S target sense
+INFO: ===> Of those, 112 (2.5980%) have correct seed translations (i.e. successful attacks, as reported in Fugure 3 of the paper) <==
+INFO: --------------------
+INFO: 10 (2.3753%) / (0.2123%) INCORRECT adversarial translations were flipped to some OTHER KNOWN target sense
+INFO: Of those, 0 (0.0000%) have correct seed translations
+INFO: Looking-up the term 'film'
+INFO: Looking-up the term 'lead'
+INFO: Looking-up the term 'letter'
+INFO: Looking-up the term 'lock'
+INFO: Looking-up the term 'match'
+INFO: Looking-up the term 'move'
+INFO: Looking-up the term 'note'
+INFO: Looking-up the term 'organ'
+INFO: Looking-up the term 'pack'
+INFO: Looking-up the term 'palm'
+INFO: Looked up 30 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: --------------------
+INFO: 5292 (88.5098%) adversarial sentences have been translated CORRECTLY
+INFO: 687 (11.4902%) adversarial sentences have been translated INCORRECTLY
+INFO: --------------------
+INFO: 388 (56.4774%) / (6.4894%) INCORRECT adversarial translations were flipped to the ATTRACTOR'S target sense
+INFO: ===> Of those, 174 (3.2222%) have correct seed translations (i.e. successful attacks, as reported in Fugure 3 of the paper) <==
+INFO: --------------------
+INFO: 22 (3.2023%) / (0.3680%) INCORRECT adversarial translations were flipped to some OTHER KNOWN target sense
+INFO: Of those, 7 (0.1296%) have correct seed translations
+INFO: Looking-up the term 'pitch'
+INFO: Looking-up the term 'plaster'
+INFO: Looking-up the term 'plate'
+INFO: Looking-up the term 'plot'
+INFO: Looking-up the term 'present'
+INFO: Looking-up the term 'race'
+INFO: Looking-up the term 'record'
+INFO: Looking-up the term 'scale'
+INFO: Looking-up the term 'seal'
+INFO: Looking-up the term 'spirit'
+INFO: Looked up 40 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: --------------------
+INFO: 6913 (87.1094%) adversarial sentences have been translated CORRECTLY
+INFO: 1023 (12.8906%) adversarial sentences have been translated INCORRECTLY
+INFO: --------------------
+INFO: 597 (58.3578%) / (7.5227%) INCORRECT adversarial translations were flipped to the ATTRACTOR'S target sense
+INFO: ===> Of those, 326 (4.5278%) have correct seed translations (i.e. successful attacks, as reported in Fugure 3 of the paper) <==
+INFO: --------------------
+INFO: 42 (4.1056%) / (0.5292%) INCORRECT adversarial translations were flipped to some OTHER KNOWN target sense
+INFO: Of those, 17 (0.2361%) have correct seed translations
+INFO: Looking-up the term 'spring'
+INFO: Looking-up the term 'stock'
+INFO: Looking-up the term 'tank'
+INFO: Looking-up the term 'term'
+INFO: Looking-up the term 'tie'
+INFO: Looking-up the term 'tube'
+INFO: Looking-up the term 'watch'
+INFO: 
+
+
+INFO: Looked up 48 terms; reporting FINAL statistics:
+INFO: --------------------
+INFO: --------------------
+INFO: 8736 (87.3600%) adversarial sentences have been translated CORRECTLY
+INFO: 1264 (12.6400%) adversarial sentences have been translated INCORRECTLY
+INFO: --------------------
+INFO: 694 (54.9051%) / (6.9400%) INCORRECT adversarial translations were flipped to the ATTRACTOR'S target sense
+INFO: ===> Of those, 384 (4.2133%) have correct seed translations (i.e. successful attacks, as reported in Fugure 3 of the paper) <==
+INFO: --------------------
+INFO: 63 (4.9842%) / (0.6300%) INCORRECT adversarial translations were flipped to some OTHER KNOWN target sense
+INFO: Of those, 31 (0.3401%) have correct seed translations

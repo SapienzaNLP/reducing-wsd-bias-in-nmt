@@ -1,0 +1,229 @@
+INFO: Reading-in JSON samples table ...
+INFO: Reading-in attractor table ...
+INFO: Reading-in sense clusters ...
+INFO: Constructing the cluster lookup table ...
+INFO: Looking-up the term 'anchor'
+INFO: Looking-up the term 'arm'
+INFO: Looking-up the term 'balance'
+INFO: Looking-up the term 'band'
+INFO: Looking-up the term 'bank'
+INFO: Looking-up the term 'bar'
+INFO: Looking-up the term 'bark'
+INFO: Looking-up the term 'barrel'
+INFO: Looking-up the term 'bass'
+INFO: Looking-up the term 'bat'
+INFO: Looking-up the term 'battery'
+INFO: Looking-up the term 'beam'
+INFO: Looking-up the term 'board'
+INFO: Looking-up the term 'bolt'
+INFO: Looking-up the term 'boot'
+INFO: Looking-up the term 'bow'
+INFO: Looking-up the term 'brace'
+INFO: Looking-up the term 'break'
+INFO: Looking-up the term 'bug'
+INFO: Looking-up the term 'butt'
+INFO: Looking-up the term 'cabinet'
+INFO: Looking-up the term 'capital'
+INFO: Looking-up the term 'case'
+INFO: Looking-up the term 'cast'
+INFO: Looking-up the term 'chair'
+INFO: Looking-up the term 'change'
+INFO: Looking-up the term 'charge'
+INFO: Looking-up the term 'chest'
+INFO: Looking-up the term 'chip'
+INFO: Looking-up the term 'clip'
+INFO: Looking-up the term 'club'
+INFO: Looking-up the term 'cock'
+INFO: Looking-up the term 'counter'
+INFO: Looking-up the term 'crane'
+INFO: Looking-up the term 'cycle'
+INFO: Looking-up the term 'date'
+INFO: Looking-up the term 'deck'
+INFO: Looking-up the term 'drill'
+INFO: Looking-up the term 'drop'
+INFO: Looking-up the term 'fall'
+INFO: Looking-up the term 'fan'
+INFO: Looking-up the term 'file'
+INFO: Looking-up the term 'film'
+INFO: Looking-up the term 'flat'
+INFO: Looking-up the term 'fly'
+INFO: Looking-up the term 'gum'
+INFO: Looking-up the term 'hoe'
+INFO: Looking-up the term 'hood'
+INFO: Looking-up the term 'jam'
+INFO: Looking-up the term 'jumper'
+INFO: Looking-up the term 'lap'
+INFO: Looking-up the term 'lead'
+INFO: Looking-up the term 'letter'
+INFO: Looking-up the term 'lock'
+INFO: Looking-up the term 'mail'
+INFO: Looking-up the term 'match'
+INFO: Looking-up the term 'mine'
+INFO: Looking-up the term 'mint'
+INFO: Looking-up the term 'mold'
+INFO: Looking-up the term 'mole'
+INFO: Looking-up the term 'mortar'
+INFO: Looking-up the term 'move'
+INFO: Looking-up the term 'nail'
+INFO: Looking-up the term 'note'
+INFO: Looking-up the term 'offense'
+INFO: Looking-up the term 'organ'
+INFO: Looking-up the term 'pack'
+INFO: Looking-up the term 'palm'
+INFO: Looking-up the term 'pick'
+INFO: Looking-up the term 'pitch'
+INFO: Looking-up the term 'pitcher'
+INFO: Looking-up the term 'plaster'
+INFO: Looking-up the term 'plate'
+INFO: Looking-up the term 'plot'
+INFO: Looking-up the term 'pot'
+INFO: Looking-up the term 'present'
+INFO: Looking-up the term 'punch'
+INFO: Looking-up the term 'quarter'
+INFO: Looking-up the term 'race'
+INFO: Looking-up the term 'racket'
+INFO: Looking-up the term 'record'
+INFO: Looking-up the term 'ruler'
+INFO: Looking-up the term 'scale'
+INFO: Looking-up the term 'seal'
+INFO: Looking-up the term 'sewer'
+INFO: Looking-up the term 'snare'
+INFO: Looking-up the term 'spirit'
+INFO: Looking-up the term 'spot'
+INFO: Looking-up the term 'spring'
+INFO: Looking-up the term 'staff'
+INFO: Looking-up the term 'stock'
+INFO: Looking-up the term 'subject'
+INFO: Looking-up the term 'tank'
+INFO: Looking-up the term 'tear'
+INFO: Looking-up the term 'term'
+INFO: Looking-up the term 'tie'
+INFO: Looking-up the term 'toast'
+INFO: Looking-up the term 'trunk'
+INFO: Looking-up the term 'tube'
+INFO: Looking-up the term 'vacuum'
+INFO: Looking-up the term 'watch'
+INFO: ----------
+INFO: Hashing true translations ...
+INFO: Looking-up the term 'arm'
+INFO: Looking-up the term 'balance'
+INFO: Looking-up the term 'band'
+INFO: Looking-up the term 'bank'
+INFO: Looking-up the term 'bar'
+INFO: Looking-up the term 'barrel'
+INFO: Looking-up the term 'beam'
+INFO: Looking-up the term 'board'
+INFO: Looking-up the term 'boot'
+INFO: Looking-up the term 'break'
+INFO: Looking-up the term 'bug'
+INFO: Looked up 10 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: Evaluated 179 seed samples
+INFO: 115 (64.2458%) seed sentences have been translated CORRECTLY
+INFO: 23 (12.8492%) seed sentences have been translated INCORRECTLY with the homograph flipped to the most likely incorrect sense cluster 
+INFO: 64 (35.7542%) seed sentences have been translated INCORRECTLY in total
+INFO: Looking-up the term 'cabinet'
+INFO: Looking-up the term 'capital'
+INFO: Looking-up the term 'case'
+INFO: Looking-up the term 'cast'
+INFO: Looking-up the term 'chair'
+INFO: Looking-up the term 'change'
+INFO: Looking-up the term 'charge'
+INFO: Looking-up the term 'chest'
+INFO: Looking-up the term 'chip'
+INFO: Looking-up the term 'club'
+INFO: Looked up 20 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: Evaluated 942 seed samples
+INFO: 724 (76.8577%) seed sentences have been translated CORRECTLY
+INFO: 72 (7.6433%) seed sentences have been translated INCORRECTLY with the homograph flipped to the most likely incorrect sense cluster 
+INFO: 218 (23.1423%) seed sentences have been translated INCORRECTLY in total
+INFO: Looking-up the term 'cock'
+INFO: Looking-up the term 'counter'
+INFO: Looking-up the term 'crane'
+INFO: Looking-up the term 'cycle'
+INFO: Looking-up the term 'date'
+INFO: Looking-up the term 'deck'
+INFO: Looking-up the term 'drill'
+INFO: Looking-up the term 'drop'
+INFO: Looking-up the term 'fall'
+INFO: Looking-up the term 'fan'
+INFO: Looked up 30 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: Evaluated 1299 seed samples
+INFO: 948 (72.9792%) seed sentences have been translated CORRECTLY
+INFO: 179 (13.7798%) seed sentences have been translated INCORRECTLY with the homograph flipped to the most likely incorrect sense cluster 
+INFO: 351 (27.0208%) seed sentences have been translated INCORRECTLY in total
+INFO: Looking-up the term 'file'
+INFO: Looking-up the term 'film'
+INFO: Looking-up the term 'jam'
+INFO: Looking-up the term 'lap'
+INFO: Looking-up the term 'lead'
+INFO: Looking-up the term 'letter'
+INFO: Looking-up the term 'lock'
+INFO: Looking-up the term 'match'
+INFO: Looking-up the term 'mine'
+INFO: Looking-up the term 'mold'
+INFO: Looked up 40 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: Evaluated 1556 seed samples
+INFO: 1101 (70.7584%) seed sentences have been translated CORRECTLY
+INFO: 218 (14.0103%) seed sentences have been translated INCORRECTLY with the homograph flipped to the most likely incorrect sense cluster 
+INFO: 455 (29.2416%) seed sentences have been translated INCORRECTLY in total
+INFO: Looking-up the term 'move'
+INFO: Looking-up the term 'note'
+INFO: Looking-up the term 'offense'
+INFO: Looking-up the term 'organ'
+INFO: Looking-up the term 'pack'
+INFO: Looking-up the term 'palm'
+INFO: Looking-up the term 'pitch'
+INFO: Looking-up the term 'plaster'
+INFO: Looking-up the term 'plate'
+INFO: Looking-up the term 'plot'
+INFO: Looked up 50 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: Evaluated 1723 seed samples
+INFO: 1207 (70.0522%) seed sentences have been translated CORRECTLY
+INFO: 243 (14.1033%) seed sentences have been translated INCORRECTLY with the homograph flipped to the most likely incorrect sense cluster 
+INFO: 516 (29.9478%) seed sentences have been translated INCORRECTLY in total
+INFO: Looking-up the term 'pot'
+INFO: Looking-up the term 'present'
+INFO: Looking-up the term 'race'
+INFO: Looking-up the term 'record'
+INFO: Looking-up the term 'ruler'
+INFO: Looking-up the term 'scale'
+INFO: Looking-up the term 'seal'
+INFO: Looking-up the term 'spirit'
+INFO: Looking-up the term 'spot'
+INFO: Looking-up the term 'spring'
+INFO: Looked up 60 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: Evaluated 2084 seed samples
+INFO: 1478 (70.9213%) seed sentences have been translated CORRECTLY
+INFO: 277 (13.2917%) seed sentences have been translated INCORRECTLY with the homograph flipped to the most likely incorrect sense cluster 
+INFO: 606 (29.0787%) seed sentences have been translated INCORRECTLY in total
+INFO: Looking-up the term 'staff'
+INFO: Looking-up the term 'stock'
+INFO: Looking-up the term 'subject'
+INFO: Looking-up the term 'tank'
+INFO: Looking-up the term 'term'
+INFO: Looking-up the term 'tie'
+INFO: Looking-up the term 'trunk'
+INFO: Looking-up the term 'tube'
+INFO: Looking-up the term 'vacuum'
+INFO: Looking-up the term 'watch'
+INFO: Looked up 70 terms; reporting intermediate statistics:
+INFO: --------------------
+INFO: Evaluated 3000 seed samples
+INFO: 2106 (70.2000%) seed sentences have been translated CORRECTLY
+INFO: 392 (13.0667%) seed sentences have been translated INCORRECTLY with the homograph flipped to the most likely incorrect sense cluster 
+INFO: 894 (29.8000%) seed sentences have been translated INCORRECTLY in total
+INFO: 
+
+
+INFO: Looked up 71 terms; reporting FINAL statistics:
+INFO: --------------------
+INFO: Evaluated 3000 seed samples
+INFO: 2106 (70.2000%) seed sentences have been translated CORRECTLY
+INFO: 392 (13.0667%) seed sentences have been translated INCORRECTLY with the homograph flipped to the most likely incorrect sense cluster 
+INFO: 894 (29.8000%) seed sentences have been translated INCORRECTLY in total
