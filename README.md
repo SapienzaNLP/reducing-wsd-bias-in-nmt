@@ -134,7 +134,7 @@ PYTHONPATH=src python scripts/translate.py \
 For DiBiMT, refer to the [official page](https://nlp.uniroma1.it/dibimt/).
 
 ### Emelin et al. Challenge Sets (English-German only)
-First, unpack `wsd_bias.tar.gz` inside the `data` folder (i.e., once unpacked, you should have a file at `data/wsd_bias/bn_sense_clusters.json`). Then, you should be able to simply run the following command:
+First, unpack `wsd_bias.zip` inside the `data` folder (i.e., once unpacked, you should have a file at `data/wsd_bias/bn_sense_clusters.json`). Then, you should be able to simply run the following command:
 ```bash
 python scripts/evaluate_model.py --exp en-de/wmt/baseline
 ```
