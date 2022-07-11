@@ -141,6 +141,8 @@ python scripts/evaluate_model.py --exp en-de/wmt/baseline
 
 Which will run the evaluation for the model under `experiments/en-de/wmt/baseline`. If there are no translated files under that directory, and there is a `best.ckpt`, the script will use that model to compute the translation before running the evaluation script. Be aware that it will also run `scripts/produce_alignments.py`, which requires `fast-align` to be installed in your system (you will have to replace the path to fast-align's build in the script itself).
 
+For better understanding the WSD bias data, you can refer to the [original paper](https://aclanthology.org/2020.emnlp-main.616/) and the [associated GitHub repository](https://github.com/demelin/detecting_wsd_biases_for_nmt).
+
 ## Cite this work
 ```
 @inproceedings{campolungo-etal-2022-reducing,
