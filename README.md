@@ -2,7 +2,7 @@
 
 ![Paper Image](images/reducing-wsd-bias-in-nmt.png)
 
-This repository contains code and instructions to train and evaluate models as described in the paper.
+This repository contains code and instructions to train and evaluate models as described in [**our paper**](https://aclanthology.org/2022.naacl-main.355/).
 
 ## Experiments folder structure
 Every experiment is stored under the `experiments/` folder, in its own directory, divided by language pair and by experiment name. For example, the baseline model of English-German is found under `experiments/en-de/wmt/baseline`, while the model fine-tuned with SCR is found under `experiments/en-de/wmt/baseline+scr`.
