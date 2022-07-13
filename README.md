@@ -5,7 +5,10 @@
 This repository contains code and instructions to train and evaluate models as described in the paper.
 
 ## Experiments folder structure
-Every experiment is stored under the `experiments/` folder, in its own directory, divided by language pair and by experiment name. For example, the baseline model of English-German is found under `experiments/en-de/wmt/baseline`, while the model fine-tuned with SCR is found under `experiments/en-de/wmt/baseline+scr`
+Every experiment is stored under the `experiments/` folder, in its own directory, divided by language pair and by experiment name. For example, the baseline model of English-German is found under `experiments/en-de/wmt/baseline`, while the model fine-tuned with SCR is found under `experiments/en-de/wmt/baseline+scr`.
+
+This repository contains the translations, produced with the models described in the paper, of the various test sets we tested against (both for BLEU computation and for WSD bias evaluation).
+
 <details>
 <summary>Expand structure</summary>
 
@@ -146,16 +149,18 @@ For better understanding the WSD bias data, you can refer to the [original paper
 ## Cite this work
 ```
 @inproceedings{campolungo-etal-2022-reducing,
-  abbr={NAACL},
-  title = "Reducing Disambiguation Biases in NMT by Leveraging Explicit Sense Information",
-  author = "Campolungo, Niccol{\`o} and Pasini, Tommaso and Emelin, Denis and Navigli, Roberto",
+  title = "Reducing Disambiguation Biases in {NMT} by Leveraging Explicit Word Sense Information",
+  author = "Campolungo, Niccol{\`o}  and
+    Pasini, Tommaso  and
+    Emelin, Denis  and
+    Navigli, Roberto",
   booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-  month = july,
+  month = jul,
   year = "2022",
-  address = "Seattle, WA, USA",
+  address = "Seattle, United States",
   publisher = "Association for Computational Linguistics",
-  selected={true},
-  pages = "4331--4352",
+  url = "https://aclanthology.org/2022.naacl-main.355",
+  pages = "4824--4838",
 }
 ```
 
