@@ -165,7 +165,7 @@ For better understanding the WSD bias data, you can refer to the [original paper
 ```
 
 ## Acknowledgements
-The authors gratefully acknowledge the support of the ERC Consolidator Grant MOUSSE No. 726487 and the PerLIR project (Personal Linguistic resources in Information Retrieval) funded by the MIUR Progetti di ricerca di Rilevante Interesse Nazionale programme (PRIN 2017). This work was also partially supported by the MIUR under the grant “Dipartimenti di eccellenza 2018-2022" of the Department of Computer Science of Sapienza University.
+The authors gratefully acknowledge the support of the ERC Consolidator Grant [MOUSSE](http://mousse-project.org/) No. 726487 and the PerLIR project (Personal Linguistic resources in Information Retrieval) funded by the MIUR Progetti di ricerca di Rilevante Interesse Nazionale programme (PRIN 2017). This work was also partially supported by the MIUR under the grant “Dipartimenti di eccellenza 2018-2022" of the Department of Computer Science of Sapienza University.
 
 
 ## License
