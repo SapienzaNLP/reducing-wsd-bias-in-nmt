@@ -97,7 +97,7 @@ PYTHONPATH=src python src/main.py \
   --smoothing 0.1 \ 
   --seed 1337 \ 
   --dataset-variety all \ 
-  --encoder-type base \ 
+  --encoder-type base 
 ```
 
 ## Fine-tuning a pre-trained model with SCR
