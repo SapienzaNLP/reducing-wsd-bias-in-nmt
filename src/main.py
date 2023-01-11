@@ -149,7 +149,7 @@ def main():
 
     provider = get_provider(args.provider)()
     encoder = get_encoder(args.encoder_type)(provider)
-    if args.scr:
+    if args.cr:
         encoder.output_prefix = 'enhanced_'
 
     module = WSDMTDataModule(encoder, args)
@@ -157,9 +157,9 @@ def main():
     resume_from = args.resume_from
 
     tags = tags_from_args(args)
-    model_class = ConsistencyRegularizationModel if args.scr else IntrinsicWSDMTModel
+    model_class = ConsistencyRegularizationModel if args.cr else IntrinsicWSDMTModel
 
-    if (args.scr or args.fine_tune) and (args.restart_from or args.resume):
+    if (args.cr or args.fine_tune) and (args.restart_from or args.resume):
         if args.resume:
             if resume_from is None:
                 checkpoints = filter(lambda file: file.name.endswith('.ckpt'), folder.iterdir())
