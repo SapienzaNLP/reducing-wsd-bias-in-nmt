@@ -1,22 +1,15 @@
 from typing import Type
 
-from data.encoder.disambiguation import DecoderDisambiguationSentenceBatchEncoder, \
-    EncoderDisambiguationSentenceBatchEncoder, EncDecDisambiguationSentenceBatchEncoder
 from data.encoder.encoder import SentenceBatchEncoder
 from data.encoder.basic import BasicSentenceBatchEncoder
 from data.encoder.sense import SenseSentenceBatchEncoder
 from data.encoder.random import RandomSenseSentenceBatchEncoder
-from data.encoder.cluster import ClusteredSenseSentenceBatchEncoder
 from data.encoder.model_provider import MarianModelProvider, MBart50ModelProvider, ModelProvider
 
 _ENCODERS = dict(
     basic=BasicSentenceBatchEncoder,
     sense=SenseSentenceBatchEncoder,
     random=RandomSenseSentenceBatchEncoder,
-    clustered=ClusteredSenseSentenceBatchEncoder,
-    dis_enc=EncoderDisambiguationSentenceBatchEncoder,
-    dis_dec=DecoderDisambiguationSentenceBatchEncoder,
-    dis_both=EncDecDisambiguationSentenceBatchEncoder,
 )
 
 

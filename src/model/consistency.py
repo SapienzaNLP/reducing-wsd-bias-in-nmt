@@ -41,7 +41,7 @@ class ConsistencyRegularizationModel(IntrinsicWSDMTModel):
         base_loss, enhanced_loss = base_pass.loss, enhanced_pass.loss
         base_logits, enhanced_logits = base_pass.logits, enhanced_pass.logits
         base_distribution = self.softmax(base_logits)
-        enhanced_distribution = self.log_softmax(enhanced_logits)
+        enhanced_distribution = self.log_softmax(enhanced_logits).detach()
         kl_div = self.kl(enhanced_distribution, base_distribution)
 
         loss = 0.5 * base_loss + 0.5 * enhanced_loss + self.reg * kl_div
