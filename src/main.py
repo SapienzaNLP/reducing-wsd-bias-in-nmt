@@ -31,7 +31,7 @@ def parse_args():
     parser.add_argument('--dataset-variety', type=str, default=None, required=True)
     parser.add_argument('--offline', default=False, action='store_true')
     parser.add_argument('--fast-iteration', default=False, action='store_true')
-    parser.add_argument('--scr', '--consistency-regularization', dest='cr', default=False, action='store_true')
+    parser.add_argument('--scr', '--consistency-regularization', dest='scr', default=False, action='store_true')
     parser.add_argument('--restart-from', default=None)
     parser.add_argument('--provider', default='opus', choices=PROVIDERS)
 
