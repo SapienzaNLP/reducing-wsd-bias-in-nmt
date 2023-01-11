@@ -9,7 +9,6 @@ from pytorch_lightning.loggers import WandbLogger
 from data.datamodule import WSDMTDataModule
 from data.encoder import ENCODERS, get_encoder, PROVIDERS, get_provider
 from model.consistency import ConsistencyRegularizationModel
-from model.disambiguator import EncoderDisambiguationMTModel, DecoderDisambiguationMTModel, EncDecDisambiguationMTModel
 from utils.callbacks import FullEvaluationCallback, SubwordsMonitor, LinkBestModelCheckpoint
 from model.intrinsic import IntrinsicWSDMTModel
 from utils.translation_system import TranslationSystem
@@ -103,19 +102,6 @@ def validate_args(args: Namespace):
     return args
 
 
-def choose_model_class(encoder_type):
-    if encoder_type == 'dis_enc':
-        return EncoderDisambiguationMTModel
-
-    if encoder_type == 'dis_dec':
-        return DecoderDisambiguationMTModel
-
-    if encoder_type == 'dis_both':
-        return EncDecDisambiguationMTModel
-
-    return IntrinsicWSDMTModel
-
-
 def tags_from_args(args):
     tags = [
         f"{args.src}-{args.tgt}",
@@ -171,7 +157,7 @@ def main():
     resume_from = args.resume_from
 
     tags = tags_from_args(args)
-    model_class = ConsistencyRegularizationModel if args.scr else choose_model_class(args.encoder_type)
+    model_class = ConsistencyRegularizationModel if args.scr else IntrinsicWSDMTModel
 
     if (args.scr or args.fine_tune) and (args.restart_from or args.resume):
         if args.resume:
