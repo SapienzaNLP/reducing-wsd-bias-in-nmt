@@ -101,6 +101,8 @@ PYTHONPATH=src python src/main.py \
 ```
 
 ## Fine-tuning a pre-trained model with SCR
+First, you are going to need to download [ARES](http://sensembert.org/#ares) (Scarlini et al, 2020) from [this link](https://drive.google.com/file/d/1wSXUr7-k2n_YvSwbbfrlUtAf5HPbC89m/view) and put it under `data/ares.pt`.
+
 ```diff
 PYTHONPATH=src python src/main.py \ 
   --src en \ 
