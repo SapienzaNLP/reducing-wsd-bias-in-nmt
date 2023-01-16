@@ -68,6 +68,9 @@ experiments
 ## Data
 All generated datasets are available [on the HuggingFace Hub](https://huggingface.co/datasets/Valahaar/wsdmt).
 
+**(NOTE: only needed for SCR fine-tuning)** [ARES](http://sensembert.org/#ares) (Scarlini et al, 2020) is available at [this link](https://drive.google.com/file/d/1wSXUr7-k2n_YvSwbbfrlUtAf5HPbC89m/view). Store it as `data/ares.pt`.
+
+
 ## Setup the environment
 
 Requirements:
